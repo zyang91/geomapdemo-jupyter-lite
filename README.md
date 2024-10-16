@@ -1,4 +1,4 @@
-# JupyterLite for Geomapdemo Package 
+# JupyterLite for Geomapdemo Package
 
 [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://zyang91.github.io/geomapdemo-jupyter-lite/)
 
