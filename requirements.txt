@@ -9,38 +9,37 @@ ipyleaflet
 ipympl>=0.8.2
 
 # Python: ipywidget library for Jupyter notebooks (optional)
-ipywidgets>=8.0.0,<9
-jupyterlab~=3.5.1
+ipywidgets>=8.1.3,<9
+jupyterlab~=4.4.3
 
 # JupyterLab: Fasta file renderer (optional)
-jupyterlab-fasta>=3,<4
+jupyterlab-fasta>=3.3.0,<4
 # JupyterLab: Geojson file renderer (optional)
-jupyterlab-geojson>=3,<4
+jupyterlab-geojson>=3.4.0,<4
 
 # Language support (optional)
 jupyterlab-language-pack-fr-FR
 jupyterlab-language-pack-zh-CN
+# JupyterLab: guided tour (optional)
+# TODO: re-enable after https://github.com/jupyterlab-contrib/jupyterlab-tour/issues/82
+# jupyterlab-tour
 # JupyterLab: dark theme
 jupyterlab-night
-# JupyterLab: guided tour (optional)
-jupyterlab-tour
 # JupyterLab: Miami nights theme (optional)
 jupyterlab_miami_nights
 # Core modules (mandatory)
-jupyterlite-core
+jupyterlite-core==0.6.3
 
 # JavaScript kernel (optional)
-jupyterlite-javascript-kernel==0.1.0b21
+jupyterlite-javascript-kernel==0.3.0
+
 # P5 kernel (optional)
 jupyterlite-p5-kernel==0.1.0
 
-# Python kernel (optional)
-jupyterlite-pyodide-kernel==0.0.6
-# Lua kernel (optional)
-jupyterlite-xeus-lua==0.3.1
 
-# SQLite kernel (optional)
-jupyterlite-xeus-sqlite==0.2.1
+# Python kernel (optional)
+jupyterlite-pyodide-kernel==0.6.1
+notebook~=7.4.3
 
 # Python: plotting libraries (optional)
-plotly>=5,<6
+plotly>=6,<7
