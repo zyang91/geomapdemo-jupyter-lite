@@ -27,7 +27,7 @@ jupyterlab-tour
 # JupyterLab: Miami nights theme (optional)
 jupyterlab_miami_nights
 # Core modules (mandatory)
-jupyterlite-core==0.4.1
+jupyterlite-core
 
 # JavaScript kernel (optional)
 jupyterlite-javascript-kernel==0.1.0b21
